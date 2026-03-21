@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JOHARI Wellness Spa Boutique | Estética Integrativa & Bem-Estar · Recreio dos Bandeirantes, RJ</title>
+  <meta name="description" content="JOHARI Wellness Spa Boutique no Recreio dos Bandeirantes, RJ. Protocolos sensoriais de estética integrativa, pós-operatório e massagens terapêuticas. Espaço boutique exclusivo com Dra. Marina Preto – 15+ anos de experiência."/>
+  <meta name="keywords" content="spa boutique Recreio dos Bandeirantes, estética integrativa Rio de Janeiro, wellness spa RJ, massagem terapêutica Recreio, pós-operatório RJ, spa hotel parceria Rio de Janeiro, Dra Marina Preto esteticista"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://johariwellness.com.br/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://johariwellness.com.br/"/>
+  <meta property="og:title" content="JOHARI Wellness Spa Boutique | Recreio dos Bandeirantes, RJ"/>
+  <meta property="og:description" content="Protocolos exclusivos de wellness e estética integrativa. Espaço boutique no Recreio. Dra. Marina Preto – 15+ anos."/>
+  <meta property="og:image" content="https://johariwellness.com.br/marina-preto.jpg"/>
+  <meta property="og:image:width" content="900"/>
+  <meta property="og:image:height" content="1200"/>
+  <meta property="og:image:alt" content="Dra. Marina Preto – JOHARI Wellness Spa Boutique, Recreio dos Bandeirantes, RJ"/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"JOHARI Wellness Spa Boutique","description":"Estética integrativa, pós-operatório e massagens terapêuticas premium no Recreio dos Bandeirantes, Rio de Janeiro.","url":"https://johariwellness.com.br","telephone":"+5521990334195","image":"https://johariwellness.com.br/marina-preto.jpg","address":{"@type":"PostalAddress","addressLocality":"Rio de Janeiro","addressRegion":"RJ","addressCountry":"BR","neighborhood":"Recreio dos Bandeirantes"},"founder":{"@type":"Person","name":"Marina Preto","jobTitle":"Esteticista Cosmetóloga","image":"https://johariwellness.com.br/marina-preto.jpg"},"openingHours":"Mo-Sa 09:00-19:00","sameAs":["https://www.instagram.com/johariconceitowellness","https://wa.me/5521990334195"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Linhas JOHARI","itemListElement":[{"@type":"Offer","name":"Linha Flow"},{"@type":"Offer","name":"Flow Afrodite Day SPA"},{"@type":"Offer","name":"Linha Reset"},{"@type":"Offer","name":"Linha Recovery"},{"@type":"Offer","name":"Linha Lumière"}]}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tenor+Sans&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="johari.css"/>
+  <style>
+  /* ══ INDEX-ONLY STYLES ══ */
+  /* HERO */
+  #hero{height:100vh;min-height:680px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .hbg2{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=1920&q=80')center/cover no-repeat;will-change:transform}
+  .hvl{position:absolute;inset:0;background:linear-gradient(155deg,rgba(61,11,13,.88)0%,rgba(18,4,4,.65)55%,rgba(61,11,13,.6)100%)}
+  .hacc{position:absolute;top:0;right:20%;width:1px;height:60%;background:linear-gradient(to bottom,transparent,var(--G),transparent);opacity:.22}
+  .hacc2{position:absolute;top:0;left:30%;width:1px;height:40%;background:linear-gradient(to bottom,transparent,rgba(211,174,57,.12),transparent)}
+  .hbd{position:relative;z-index:2;text-align:center;padding:2rem;max-width:860px}
+  .htit{font-family:'Cormorant Garamond',serif;font-size:clamp(4rem,10vw,8rem);font-weight:300;color:#fff;line-height:.88;letter-spacing:.12em;opacity:0}
+  .hsub{font-family:'Cormorant Garamond',serif;font-size:clamp(.95rem,2vw,1.35rem);font-style:italic;color:var(--G);letter-spacing:.22em;margin:.6rem 0 2.2rem;opacity:0}
+  .hsep{width:1px;height:48px;background:linear-gradient(to bottom,transparent,var(--G),transparent);margin:0 auto 2rem;opacity:0}
+  .htag{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2.2vw,1.35rem);font-weight:300;font-style:italic;color:rgba(255,255,255,.75);line-height:1.75;margin-bottom:2.8rem;opacity:0}
+  .hbtns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;opacity:0}
+  .hscr{position:absolute;bottom:2.2rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.45rem;opacity:0}
+  .hscr span{font-family:'Tenor Sans',sans-serif;font-size:.48rem;letter-spacing:.38em;text-transform:uppercase;color:var(--G)}
+  .swire{width:1px;height:42px;background:linear-gradient(to bottom,var(--G),transparent);animation:wir 2.2s ease infinite}
+  @keyframes wir{0%,100%{opacity:.2;transform:scaleY(.5)translateY(-10px)}50%{opacity:1;transform:scaleY(1)translateY(0)}}
+
+  /* SOBRE */
+  #sobre{padding:9rem 4rem;background:var(--CR)}
+  .sob-w{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1.1fr;gap:6rem;align-items:center}
+  .sob-f{position:relative}
+  .sob-f::before{content:'';position:absolute;top:-16px;left:-16px;right:16px;bottom:16px;border:1px solid rgba(211,174,57,.18)}
+  .sob-f img{width:100%;height:560px;object-fit:cover;object-position:center top;filter:sepia(5%)contrast(1.08)}
+  .sob-b{position:absolute;bottom:-1.4rem;right:-1.4rem;width:108px;height:108px;background:var(--B);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+  .sob-b .n{font-family:'Cormorant Garamond',serif;font-size:1.9rem;color:var(--G);line-height:1}
+  .sob-b .l{font-family:'Tenor Sans',sans-serif;font-size:.42rem;letter-spacing:.13em;text-transform:uppercase;color:rgba(250,247,242,.55);text-align:center;padding:0 5px}
+  .sob-t p{font-size:.93rem;font-weight:300;line-height:1.92;color:var(--TX);margin-bottom:1.1rem}
+  .sob-t .pq{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:var(--B);line-height:1.58;border-left:2px solid var(--G);padding-left:1.35rem;margin:1.8rem 0}
+  .nome-box{background:var(--BE);border-left:2px solid var(--G);padding:1.45rem 1.65rem;margin:1.6rem 0}
+  .nome-titulo{font-family:'Tenor Sans',sans-serif;font-size:.54rem;letter-spacing:.28em;text-transform:uppercase;color:var(--G);display:block;margin-bottom:.55rem}
+  .nome-box h4{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--B);margin-bottom:.4rem;font-weight:400}
+  .nome-box p{font-size:.82rem;font-weight:300;line-height:1.82;color:var(--TX);margin-bottom:.65rem}
+  .nome-tags{display:flex;flex-wrap:wrap;gap:.4rem}
+  .nome-tag{font-family:'Tenor Sans',sans-serif;font-size:.5rem;letter-spacing:.15em;text-transform:uppercase;color:var(--B);border:1px solid rgba(95,18,20,.16);padding:.22rem .65rem;transition:all .3s}
+  .nome-tag:hover{background:var(--B);color:var(--CR)}
+  .sr{display:flex;gap:2rem;margin-top:2rem}
+  .sr .n{font-family:'Cormorant Garamond',serif;font-size:2.1rem;color:var(--G);line-height:1}
+  .sr .l{font-family:'Tenor Sans',sans-serif;font-size:.52rem;letter-spacing:.13em;text-transform:uppercase;color:var(--TM)}
+
+  /* MINI-LINHAS SHOWCASE */
+  #linhas{padding:9rem 4rem;background:var(--BD);position:relative;overflow:hidden}
+  #linhas::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(to right,transparent,rgba(211,174,57,.3),transparent)}
+  .li-w{max-width:1200px;margin:0 auto}
+  .li-hd{text-align:center;margin-bottom:4.5rem}
+  .li-hd .st{color:var(--CR)}
+  .li-hd p{font-size:.88rem;font-weight:300;color:rgba(250,247,242,.42);max-width:500px;margin:.8rem auto 0;line-height:1.85}
+  .li-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5px}
+  .li-card{background:rgba(255,255,255,.04);border:1px solid rgba(211,174,57,.06);padding:2.5rem 1.8rem;text-align:center;transition:all .4s;position:relative;overflow:hidden}
+  .li-card::before{content:'';position:absolute;top:0;left:50%;width:0;height:2px;background:var(--G);transform:translateX(-50%);transition:width .5s}
+  .li-card:hover::before{width:80%}
+  .li-card:hover{background:rgba(255,255,255,.08);border-color:rgba(211,174,57,.2);transform:translateY(-3px)}
+  .li-ic{font-size:1.5rem;display:block;margin:0 auto .9rem;color:var(--G);opacity:.8}
+  .li-card h3{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:400;color:var(--CR);margin-bottom:.4rem}
+  .li-card p{font-size:.78rem;font-weight:300;color:rgba(250,247,242,.4);line-height:1.7;margin-bottom:1.1rem}
+  .li-card a{font-family:'Tenor Sans',sans-serif;font-size:.54rem;letter-spacing:.18em;text-transform:uppercase;color:var(--G);transition:all .3s;display:inline-flex;align-items:center;gap:.4rem}
+  .li-card a:hover{gap:.7rem}
+  .li-card a::after{content:'→';transition:transform .3s}
+
+  /* ESPAÇO */
+  #espaco{padding:9rem 4rem;background:var(--BE)}
+  .esp-w{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.1fr 1fr;gap:5rem;align-items:center}
+  .esp-imgs{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+  .esp-imgs .esp-main{grid-column:1/-1}
+  .esp-imgs img{width:100%;display:block;object-fit:cover;transition:transform .45s ease,filter .45s ease;filter:contrast(1.03) saturate(1.02)}
+  .esp-imgs img:hover{transform:scale(1.02)}
+  .esp-text p{font-size:.9rem;font-weight:300;line-height:1.92;color:var(--TX);margin-bottom:1rem}
+  .esp-text .hl{font-family:'Cormorant Garamond',serif;font-size:1.18rem;font-style:italic;color:var(--B);line-height:1.62;border-left:2px solid var(--G);padding-left:1.3rem;margin:1.6rem 0}
+  .esp-feats{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.5rem 0}
+  .esp-feat{display:flex;align-items:flex-start;gap:.6rem}
+  .esp-feat .dot{width:4px;height:4px;background:var(--G);border-radius:50%;flex-shrink:0;margin-top:.55rem}
+  .esp-feat span{font-size:.79rem;font-weight:300;color:var(--TM);line-height:1.55}
+  .esp-addr{display:flex;align-items:center;gap:.75rem;padding:.85rem 1.05rem;border:1px solid rgba(95,18,20,.12);margin-top:1.5rem}
+  .esp-addr .pin{color:var(--G);font-size:.9rem}
+  .esp-addr p{font-size:.77rem;font-weight:300;color:var(--TM);line-height:1.5}
+  .esp-addr strong{color:var(--B);font-weight:500;display:block}
+
+  /* HOTÉIS */
+  #hoteis{padding:9rem 4rem;background:var(--CR)}
+  .hot-w{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center}
+  .hot-left p{font-size:.9rem;font-weight:300;color:var(--TM);line-height:1.88;margin:1rem 0 1.8rem}
+  .hot-right{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(95,18,20,.07)}
+  .hc{background:var(--CR);padding:2rem 1.7rem;transition:all .35s;border-bottom:2px solid transparent}
+  .hc:hover{border-bottom-color:var(--G);transform:translateY(-3px);box-shadow:0 10px 26px rgba(95,18,20,.06)}
+  .hc-ic{font-size:1.2rem;color:var(--G);opacity:.8;display:block;margin-bottom:.85rem}
+  .hc h3{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--B);margin-bottom:.4rem;font-weight:400}
+  .hc p{font-size:.78rem;font-weight:300;line-height:1.72;color:var(--TM)}
+
+  /* FUNDADORA */
+  #fund{padding:9rem 4rem;background:var(--BD);position:relative;overflow:hidden}
+  #fund::before{content:'MARINA';position:absolute;right:-3rem;bottom:-2rem;font-family:'Cormorant Garamond',serif;font-size:10rem;font-weight:300;color:rgba(255,255,255,.02);pointer-events:none;letter-spacing:.3em;white-space:nowrap}
+  .fd-w{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1.1fr;gap:6rem;align-items:center}
+  .fd-i{position:relative}
+  .fd-i::after{content:'';position:absolute;top:18px;left:18px;right:-18px;bottom:-18px;border:1px solid rgba(211,174,57,.22);z-index:-1}
+  .fd-i img{width:100%;height:620px;object-fit:cover;object-position:center top;filter:sepia(6%)contrast(1.08)brightness(1.04)}
+  .fd-t p{font-size:.92rem;font-weight:300;line-height:1.92;color:rgba(250,247,242,.55);margin-bottom:1.05rem}
+  .fd-t .qm{font-family:'Cormorant Garamond',serif;font-size:1.22rem;font-style:italic;color:var(--CR);line-height:1.62;border-left:2px solid var(--G);padding-left:1.3rem;margin:1.8rem 0}
+  .fd-sub{font-family:'Tenor Sans',sans-serif;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(211,174,57,.55);margin-bottom:1.7rem}
+  .fd-creds{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1.5rem}
+  .fd-cred{font-family:'Tenor Sans',sans-serif;font-size:.5rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(211,174,57,.6);border:1px solid rgba(211,174,57,.15);padding:.22rem .65rem}
+
+  /* DEPOIMENTOS */
+  #dep{padding:9rem 4rem;background:var(--BE)}
+  .dp-w{max-width:1200px;margin:0 auto}
+  .dp-hd{text-align:center;margin-bottom:4rem}
+  .dp-g{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5px}
+  .dc{background:var(--CR);padding:2.3rem 1.9rem;transition:all .3s;border-bottom:2px solid transparent}
+  .dc:hover{border-bottom-color:var(--G);box-shadow:0 8px 24px rgba(95,18,20,.06)}
+  .st5{color:var(--G);font-size:.65rem;letter-spacing:.1em;margin-bottom:.95rem}
+  .dc blockquote{font-family:'Cormorant Garamond',serif;font-size:1.07rem;font-style:italic;font-weight:300;color:var(--TX);line-height:1.75;margin-bottom:1.3rem}
+  .da{font-family:'Tenor Sans',sans-serif;font-size:.55rem;letter-spacing:.18em;text-transform:uppercase;color:var(--G)}
+
+  /* FAQ */
+  #faq{padding:9rem 4rem;background:var(--CR)}
+  .fq-w{max-width:760px;margin:0 auto;text-align:center}
+  .fql{margin-top:3.5rem;text-align:left}
+  .fi{border-bottom:1px solid rgba(95,18,20,.08)}
+  .fq{display:flex;justify-content:space-between;align-items:center;padding:1.35rem 0;cursor:pointer;font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--B);gap:1rem;transition:color .3s}
+  .fq:hover{color:var(--BL)}
+  .fp{flex-shrink:0;width:20px;height:20px;border:1px solid rgba(211,174,57,.45);display:flex;align-items:center;justify-content:center;color:var(--G);transition:transform .4s;font-size:.9rem}
+  .fi.open .fp{transform:rotate(45deg)}
+  .fa{font-size:.83rem;font-weight:300;line-height:1.88;color:var(--TM);max-height:0;overflow:hidden;transition:max-height .52s ease,padding-bottom .3s}
+  .fi.open .fa{max-height:300px;padding-bottom:1.35rem}
+
+  /* CTA */
+  #cta{padding:10rem 4rem;position:relative;overflow:hidden;background:url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1920&q=80')center/cover no-repeat}
+  #cta::before{content:'';position:absolute;inset:0;background:linear-gradient(145deg,rgba(61,11,13,.92),rgba(18,4,4,.8))}
+  .ct-i{position:relative;z-index:1;max-width:640px;margin:0 auto;text-align:center}
+  .ct-i .st{color:var(--CR);margin-bottom:.9rem}
+  .ct-i p{font-family:'Cormorant Garamond',serif;font-size:1.18rem;font-style:italic;color:rgba(250,247,242,.55);margin-bottom:2.8rem;line-height:1.68}
+
+  /* GALERIA */
+  #gal{background:var(--SA);overflow:hidden}
+  .strip{display:flex;width:max-content;animation:roll 30s linear infinite}
+  .strip:hover{animation-play-state:paused}
+  .strip img{height:280px;width:240px;flex-shrink:0;object-fit:cover;filter:sepia(12%)contrast(1.06);transition:filter .4s}
+  .strip img:hover{filter:none}
+  @keyframes roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* RESPONSIVE INDEX */
+  @media(max-width:1024px){
+    .sob-w,.fd-w,.esp-w,.hot-w{grid-template-columns:1fr;gap:3.5rem}
+    .sob-f,.fd-i{order:-1}
+    .li-grid{grid-template-columns:repeat(2,1fr)}
+    .dp-g{grid-template-columns:1fr 1fr}
+  }
+  @media(max-width:768px){
+    #sobre,#linhas,#espaco,#hoteis,#fund,#dep,#faq,#cta{padding:5.5rem 1.5rem}
+    .li-grid,.hot-right{grid-template-columns:1fr}
+    .dp-g{grid-template-columns:1fr}
+    .esp-imgs{grid-template-columns:1fr}
+    .esp-imgs .esp-main{grid-column:auto}
+    .esp-feats{grid-template-columns:1fr}
+    .sr{flex-wrap:wrap;gap:1.5rem}
+  }
+  </style>
+</head>
+<body>
+<div id="ld"><img class="ld-logo" src="logo.png" alt="JOHARI"/><div class="ld-bar"></div><span class="ld-lbl" data-pt="preparando sua experiência" data-en="preparing your experience">preparando sua experiência</span></div>
+<div id="cd"></div><div id="cr"></div>
+
+<!-- MOBILE MENU -->
+<div id="mm">
+  <button id="mc">✕</button>
+  <a href="index.html" data-pt="Início" data-en="Home">Início</a>
+  <a href="sobre.html" data-pt="Sobre & Espaço" data-en="About & Space">Sobre &amp; Espaço</a>
+  <a href="protocolos.html" data-pt="Protocolos" data-en="Protocols">Protocolos</a>
+  <a href="hoteis.html" data-pt="Para Hotéis" data-en="For Hotels">Para Hotéis</a>
+  <a href="https://wa.me/5521990334195" target="_blank" class="mm-wa" data-pt="Agendar" data-en="Book Now">Agendar</a>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nl"><a href="index.html"><img src="logo.png" alt="JOHARI Wellness Spa Boutique – Recreio dos Bandeirantes, RJ"/></a></div>
+  <ul class="nlinks">
+    <li><a href="index.html" data-pt="Início" data-en="Home">Início</a></li>
+    <li><a href="sobre.html" data-pt="Sobre & Espaço" data-en="About">Sobre &amp; Espaço</a></li>
+    <li><a href="protocolos.html" data-pt="Protocolos" data-en="Protocols">Protocolos</a></li>
+    <li><a href="hoteis.html" data-pt="Para Hotéis" data-en="For Hotels">Para Hotéis</a></li>
+  </ul>
+  <div class="nend">
+    <button class="lbtn" id="lb">EN</button>
+    <a href="https://wa.me/5521990334195" target="_blank" class="nwa" data-pt="Agendar" data-en="Book Now">Agendar</a>
+    <div class="hbg" id="hbg"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" aria-label="JOHARI Wellness Spa Boutique">
+  <div class="hbg2" id="hbg2"></div>
+  <div class="hvl"></div>
+  <div class="hacc"></div><div class="hacc2"></div>
+  <div class="hbd">
+    <h1 class="htit">JOHARI</h1>
+    <p class="hsub" data-pt="Wellness Spa Boutique" data-en="Wellness Spa Boutique">Wellness Spa Boutique</p>
+    <div class="hsep"></div>
+    <p class="htag" data-pt='"A joia que já existe e é revelada pelo cuidado consciente."' data-en='"The gem that already exists, revealed through conscious care."'>"A joia que já existe e é revelada pelo cuidado consciente."</p>
+    <div class="hbtns">
+      <a href="protocolos.html" class="bg" data-pt="Ver Protocolos" data-en="See Protocols">Ver Protocolos</a>
+      <a href="https://wa.me/5521990334195" target="_blank" class="bo bo-w" data-pt="Agendar pelo WhatsApp" data-en="Book via WhatsApp">Agendar pelo WhatsApp</a>
+    </div>
+  </div>
+  <div class="hscr"><span data-pt="descer" data-en="scroll">descer</span><div class="swire"></div></div>
+</section>
+
+<!-- SOBRE – FILOSOFIA -->
+<section id="sobre" aria-labelledby="sobre-h2">
+  <div class="sob-w">
+    <div class="sob-f rv">
+      <img src="marina-preto.jpg"
+           alt="Dra. Marina Preto – Fundadora e Esteticista Cosmetóloga JOHARI Wellness Spa Boutique Recreio dos Bandeirantes RJ"
+           width="560" height="560"
+           loading="eager"
+           fetchpriority="high"
+           style="object-position:center 15%"/>
+      <div class="sob-b"><span class="n">15+</span><span class="l" data-pt="anos de excelência" data-en="years of excellence">anos de excelência</span></div>
+    </div>
+    <div class="sob-t rv">
+      <span class="ey" data-pt="A Filosofia" data-en="The Philosophy">A Filosofia</span>
+      <h2 id="sobre-h2" class="st" data-pt="JOHARI Wellness <em>SPA Boutique</em>" data-en="JOHARI Wellness <em>SPA Boutique</em>">JOHARI Wellness <em>SPA Boutique</em></h2>
+      <div class="gl"></div>
+
+      <div class="nome-box">
+        <span class="nome-titulo" data-pt="✨ Significado do Nome" data-en="✨ Meaning of the Name">✨ Significado do Nome</span>
+        <h4 data-pt="JOHARI — joia preciosa" data-en="JOHARI — precious gem">JOHARI — joia preciosa</h4>
+        <p data-pt="De origem africana (swahili), JOHARI designa algo raro, valioso e que precisa ser revelado. A beleza mais verdadeira já existe em cada pessoa — só precisa de cuidado consciente para vir à luz." data-en="Of African (Swahili) origin, JOHARI means something rare, precious and meant to be revealed. The truest beauty already exists in each person — it only needs conscious care to come to light.">De origem africana (swahili), JOHARI designa algo raro, valioso e que precisa ser revelado. A beleza mais verdadeira já existe em cada pessoa — só precisa de cuidado consciente para vir à luz.</p>
+        <div class="nome-tags">
+          <span class="nome-tag" data-pt="Autoconhecimento" data-en="Self-knowledge">Autoconhecimento</span>
+          <span class="nome-tag" data-pt="Despertar Interno" data-en="Inner Awakening">Despertar Interno</span>
+          <span class="nome-tag" data-pt="Valor Pessoal" data-en="Personal Value">Valor Pessoal</span>
+          <span class="nome-tag" data-pt="Beleza de Dentro" data-en="Inner Beauty">Beleza de Dentro</span>
+          <span class="nome-tag" data-pt="Refinamento" data-en="Refinement">Refinamento</span>
+        </div>
+      </div>
+
+      <p data-pt="O Johari Wellness SPA Boutique é um espaço dedicado ao cuidado profundo do corpo e da mente, onde cada detalhe é pensado para proporcionar bem-estar, tranquilidade e reconexão." data-en="Johari Wellness SPA Boutique is a space dedicated to deep body and mind care, where every detail is designed to provide well-being, tranquility and reconnection.">O Johari Wellness SPA Boutique é um espaço dedicado ao cuidado profundo do corpo e da mente, onde cada detalhe é pensado para proporcionar bem-estar, tranquilidade e reconexão.</p>
+
+      <p data-pt="Diferente de espaços de alto volume, o Johari segue o conceito de SPA boutique: atendimento exclusivo, agenda limitada e experiências totalmente personalizadas." data-en="Unlike high-volume spaces, Johari follows the SPA boutique concept: exclusive service, limited schedule and fully personalized experiences.">Diferente de espaços de alto volume, o Johari segue o conceito de SPA boutique: atendimento exclusivo, agenda limitada e experiências totalmente personalizadas.</p>
+
+      <p data-pt="Cada sessão é preparada com atenção individual, em um ambiente acolhedor, silencioso e sensorial — com iluminação suave, aromas naturais e uma atmosfera que convida ao relaxamento." data-en="Each session is prepared with individual attention, in a welcoming, quiet and sensory environment — with soft lighting, natural aromas and an atmosphere that invites relaxation.">Cada sessão é preparada com atenção individual, em um ambiente acolhedor, silencioso e sensorial — com iluminação suave, aromas naturais e uma atmosfera que convida ao relaxamento.</p>
+
+      <p class="pq" data-pt='"No Johari, o cuidado não é apenas um serviço — é uma experiência terapêutica completa, feita para desacelerar, respirar e viver um momento genuíno de bem-estar."' data-en='"At Johari, care is not just a service — it is a complete therapeutic experience, designed to slow down, breathe and live a genuine moment of well-being."'>"No Johari, o cuidado não é apenas um serviço — é uma experiência terapêutica completa, feita para desacelerar, respirar e viver um momento genuíno de bem-estar."</p>
+
+      <div class="sr">
+        <div><div class="n">15+</div><div class="l" data-pt="anos de experiência" data-en="years experience">anos de experiência</div></div>
+        <div><div class="n">500+</div><div class="l" data-pt="protocolos realizados" data-en="protocols delivered">protocolos realizados</div></div>
+        <div><div class="n">100%</div><div class="l" data-pt="personalizado" data-en="personalized">personalizado</div></div>
+      </div>
+
+      <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap">
+        <a href="sobre.html" class="bg" data-pt="Conhecer a Fundadora" data-en="Meet the Founder">Conhecer a Fundadora</a>
+        <a href="sobre.html#espaco" class="bo" data-pt="Ver o Espaço" data-en="See the Space">Ver o Espaço</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LINHAS SHOWCASE -->
+<section id="linhas" aria-labelledby="linhas-h2">
+  <div class="li-w">
+    <div class="li-hd rv">
+      <span class="ey" data-pt="Nossas Linhas" data-en="Our Lines">Nossas Linhas</span>
+      <h2 id="linhas-h2" class="st" style="color:var(--CR)" data-pt="Protocolos para <em>cada momento</em>" data-en="Protocols for <em>every moment</em>">Protocolos para <em>cada momento</em></h2>
+      <div class="gl c"></div>
+      <p data-pt="Cinco linhas desenhadas para revelar o que já existe em você — do relaxamento sensorial à recuperação especializada." data-en="Five lines designed to reveal what already exists in you — from sensory relaxation to specialized recovery.">Cinco linhas desenhadas para revelar o que já existe em você — do relaxamento sensorial à recuperação especializada.</p>
+    </div>
+    <div class="li-grid">
+      <div class="li-card rv">
+        <span class="li-ic">◇</span>
+        <h3 data-pt="Linha Flow" data-en="Flow Line">Linha Flow</h3>
+        <p data-pt="Experiências sensoriais premium com escalda-pés, massagem, manta térmica, espumante e petiscos. 6 rituais do Essencial ao Grand." data-en="Premium sensory experiences with foot bath, massage, thermal blanket, sparkling wine and snacks. 6 rituals from Essential to Grand.">Experiências sensoriais premium com escalda-pés, massagem, manta térmica, espumante e petiscos. 6 rituais do Essencial ao Grand.</p>
+        <a href="protocolos.html#linha-flow" data-pt="Explorar Flow" data-en="Explore Flow">Explorar Flow</a>
+      </div>
+      <div class="li-card rv">
+        <span class="li-ic">◎</span>
+        <h3 data-pt="Recovery" data-en="Recovery">Recovery</h3>
+        <p data-pt="Protocolos especializados de recuperação pós-operatória com drenagem linfática neurofuncional, massagem neurointegrativa e acompanhamento individual." data-en="Specialized post-operative recovery protocols with neurofunctional lymphatic drainage, neurointegrative massage and individual follow-up.">Protocolos especializados de recuperação pós-operatória com drenagem linfática neurofuncional, massagem neurointegrativa e acompanhamento individual.</p>
+        <a href="protocolos.html#linha-recovery" data-pt="Ver Recovery" data-en="See Recovery">Ver Recovery</a>
+      </div>
+      <div class="li-card rv">
+        <span class="li-ic">◈</span>
+        <h3 data-pt="Reset" data-en="Reset">Reset</h3>
+        <p data-pt="Alta tecnologia — Heccus, Fluence Maxx, Radiofrequência, Endermo — integrada a massagem neurointegrativa para corpo e metabolismo." data-en="High technology — Heccus, Fluence Maxx, Radiofrequency, Endermo — integrated with neurointegrative massage for body and metabolism.">Alta tecnologia — Heccus, Fluence Maxx, Radiofrequência, Endermo — integrada a massagem neurointegrativa para corpo e metabolismo.</p>
+        <a href="protocolos.html#linha-reset" data-pt="Ver Reset" data-en="See Reset">Ver Reset</a>
+      </div>
+      <div class="li-card rv">
+        <span class="li-ic">◉</span>
+        <h3 data-pt="Lumière Facial" data-en="Lumière Facial">Lumière Facial</h3>
+        <p data-pt="5 protocolos faciais regenerativos com drenagem, lifting, LED, Ultrafocus e ativos biocompatíveis para pele luminosa e firme." data-en="5 regenerative facial protocols with drainage, lifting, LED, Ultrafocus and biocompatible actives for luminous, firm skin.">5 protocolos faciais regenerativos com drenagem, lifting, LED, Ultrafocus e ativos biocompatíveis para pele luminosa e firme.</p>
+        <a href="protocolos.html#linha-lumiere" data-pt="Ver Lumière" data-en="See Lumière">Ver Lumière</a>
+      </div>
+    </div>
+    <div class="rv" style="text-align:center;margin-top:3rem">
+      <a href="protocolos.html" class="bg" data-pt="Ver Todos os Protocolos" data-en="View All Protocols">Ver Todos os Protocolos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ESPAÇO FÍSICO – RECREIO -->
+<section id="espaco" aria-labelledby="espaco-h2">
+  <div class="esp-w">
+    <div class="esp-imgs rv">
+      <img
+        src="https://raw.githubusercontent.com/highlevelvnc/johari2/main/espacopc.jpeg"
+        alt="Vista principal do espaço JOHARI Wellness Spa Boutique"
+        class="esp-main"
+        style="height:310px;object-position:center center;"
+        loading="lazy"
+      />
+      <img
+        src="https://raw.githubusercontent.com/highlevelvnc/johari2/main/espacomobile.jpeg"
+        alt="Ambiente interno do espaço JOHARI"
+        style="height:170px;object-position:center center;"
+        loading="lazy"
+      />
+      <img
+        src="https://raw.githubusercontent.com/highlevelvnc/johari2/main/espacopc.jpeg"
+        alt="Detalhes do espaço JOHARI Wellness Spa Boutique"
+        style="height:170px;object-position:center 35%;"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="esp-text rv">
+      <span class="ey" data-pt="Nosso Espaço" data-en="Our Space">Nosso Espaço</span>
+      <h2 id="espaco-h2" class="st" data-pt="Um santuário no <em>Recreio</em>" data-en="A sanctuary in <em>Recreio</em>">Um santuário no <em>Recreio</em></h2>
+      <div class="gl"></div>
+      <p data-pt="Localizado no Recreio dos Bandeirantes, zona oeste do Rio de Janeiro, o Johari foi pensado para acolher com elegância, privacidade e conforto em cada detalhe." data-en="Located in Recreio dos Bandeirantes, in Rio de Janeiro’s west zone, Johari was designed to welcome with elegance, privacy and comfort in every detail.">Localizado no Recreio dos Bandeirantes, zona oeste do Rio de Janeiro, o Johari foi pensado para acolher com elegância, privacidade e conforto em cada detalhe.</p>
+      <p class="hl" data-pt='"Um ambiente silencioso, sensorial e exclusivo, criado para que o relaxamento comece antes mesmo do primeiro toque."' data-en='"A quiet, sensory and exclusive environment, created so that relaxation begins even before the first touch."'>"Um ambiente silencioso, sensorial e exclusivo, criado para que o relaxamento comece antes mesmo do primeiro toque."</p>
+      <div class="esp-feats">
+        <div class="esp-feat"><div class="dot"></div><span data-pt="Ambiente privativo e exclusivo" data-en="Private and exclusive environment">Ambiente privativo e exclusivo</span></div>
+        <div class="esp-feat"><div class="dot"></div><span data-pt="Aromaterapia e sonorização" data-en="Aromatherapy and soundscape">Aromaterapia e sonorização</span></div>
+        <div class="esp-feat"><div class="dot"></div><span data-pt="Maca térmica de última geração" data-en="State-of-the-art thermal table">Maca térmica de última geração</span></div>
+        <div class="esp-feat"><div class="dot"></div><span data-pt="Produtos premium biocompatíveis" data-en="Premium biocompatible products">Produtos premium biocompatíveis</span></div>
+      </div>
+      <div class="esp-addr">
+        <span class="pin">◎</span>
+        <p><strong>Recreio dos Bandeirantes, Rio de Janeiro – RJ</strong><span data-pt="Endereço completo enviado após agendamento" data-en="Full address sent after booking">Endereço completo enviado após agendamento</span></p>
+      </div>
+      <div style="margin-top:1.8rem;display:flex;gap:1rem;flex-wrap:wrap">
+        <a href="https://wa.me/5521990334195" target="_blank" class="bg" data-pt="Agendar uma Visita" data-en="Schedule a Visit">Agendar uma Visita</a>
+        <a href="sobre.html" class="bo" data-pt="Saber mais" data-en="Learn more">Saber mais</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOTEL TEASER -->
+<section id="hoteis" aria-labelledby="hoteis-h2">
+  <div class="hot-w">
+    <div class="hot-left rv">
+      <span class="ey" data-pt="Parcerias Corporativas" data-en="Corporate Partnerships">Parcerias Corporativas</span>
+      <h2 id="hoteis-h2" class="st" data-pt="Serviço <em>in-house</em> para hotéis e resorts" data-en="<em>in-house</em> service for hotels and resorts">Serviço <em>in-house</em> para hotéis e resorts</h2>
+      <div class="gl"></div>
+      <p data-pt="Nossa equipe vai até o seu hotel com todos os materiais. Menu de wellness personalizado com a identidade do seu espaço. Seus hóspedes merecem mais do que um bom quarto." data-en="Our team comes to your hotel with all materials. Custom wellness menu matching your space's identity. Your guests deserve more than a great room.">Nossa equipe vai até o seu hotel com todos os materiais. Menu de wellness personalizado com a identidade do seu espaço. Seus hóspedes merecem mais do que um bom quarto.</p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:.5rem">
+        <a href="hoteis.html" class="bg" data-pt="Ver Parcerias" data-en="See Partnerships">Ver Parcerias</a>
+        <a href="https://wa.me/5521990334195" target="_blank" class="bo" data-pt="Falar Agora" data-en="Talk Now">Falar Agora</a>
+      </div>
+    </div>
+    <div class="hot-right rv">
+      <div class="hc"><span class="hc-ic">◇</span><h3 data-pt="In-House" data-en="In-House">In-House</h3><p data-pt="Levamos o spa ao seu hotel, sem necessidade de estrutura própria." data-en="We bring the spa to your hotel, no structure needed.">Levamos o spa ao seu hotel, sem necessidade de estrutura própria.</p></div>
+      <div class="hc"><span class="hc-ic">◈</span><h3 data-pt="Exclusivos" data-en="Exclusive">Exclusivos</h3><p data-pt="Protocolos com a identidade do seu hotel, criados sob medida." data-en="Protocols with your hotel's identity, tailor-made.">Protocolos com a identidade do seu hotel, criados sob medida.</p></div>
+      <div class="hc"><span class="hc-ic">◉</span><h3 data-pt="Pós-Op" data-en="Post-Op">Pós-Op</h3><p data-pt="Hóspedes em recuperação atendidos com discrição e especialização." data-en="Guests in recovery served with discretion and expertise.">Hóspedes em recuperação atendidos com discrição e especialização.</p></div>
+      <div class="hc"><span class="hc-ic">✦</span><h3 data-pt="Flexível" data-en="Flexible">Flexível</h3><p data-pt="Pacotes mensais, diárias ou sob demanda para qualquer volume." data-en="Monthly, daily or on-demand packages for any volume.">Pacotes mensais, diárias ou sob demanda para qualquer volume.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="gal" aria-label="Galeria JOHARI Wellness Spa Boutique Recreio RJ">
+  <div class="strip">
+    <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=500&q=65" alt="Massagem terapêutica Recreio RJ" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=500&q=65" alt="Terapia manual holística" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&q=65" alt="Protocolo facial avançado" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1470259078422-826894b933aa?w=500&q=65" alt="Relaxamento profundo" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1531171673193-06cda66c4418?w=500&q=65" alt="Skincare premium" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&q=65" alt="Spa boutique" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=500&q=65" alt="Bem-estar integral" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=500&q=65" alt="Tratamento estético" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=500&q=65" alt="Massagem terapêutica" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=500&q=65" alt="Terapia manual" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&q=65" alt="Protocolo facial" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1470259078422-826894b933aa?w=500&q=65" alt="Relaxamento" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1531171673193-06cda66c4418?w=500&q=65" alt="Skincare" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&q=65" alt="Spa boutique" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=500&q=65" alt="Bem-estar" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=500&q=65" alt="Tratamento" loading="lazy"/>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="dep" aria-labelledby="dep-h2">
+  <div class="dp-w">
+    <div class="dp-hd rv">
+      <span class="ey" data-pt="Vozes que nos chegam" data-en="Voices that reach us">Vozes que nos chegam</span>
+      <h2 id="dep-h2" class="st" data-pt="O que dizem <em>nossas clientes</em>" data-en="What our <em>clients say</em>">O que dizem <em>nossas clientes</em></h2>
+      <div class="gl c"></div>
+    </div>
+    <div class="dp-g">
+      <div class="dc rv"><div class="st5">★★★★★</div><blockquote data-pt='"Entrei ansiosa após minha cirurgia e saí sentindo que meu corpo estava sendo cuidado de verdade. A Marina não trata o sintoma — ela vê a pessoa."' data-en='"I came in anxious after my surgery and left feeling truly cared for. Marina does not treat the symptom — she sees the person."'>"Entrei ansiosa após minha cirurgia e saí sentindo que meu corpo estava sendo cuidado de verdade. A Marina não trata o sintoma — ela vê a pessoa."</blockquote><p class="da">Fernanda S. · Rio de Janeiro</p></div>
+      <div class="dc rv"><div class="st5">★★★★★</div><blockquote data-pt='"Um espaço que parece fora do tempo. Entrei carregando o peso da semana e saí leve, renovada. O Protocolo Fluxo é simplesmente transformador."' data-en='"A space that feels outside of time. I arrived carrying the week weight and left light, renewed. The Fluxo Protocol is simply transformative."'>"Um espaço que parece fora do tempo. Entrei carregando o peso da semana e saí leve, renovada. O Protocolo Fluxo é simplesmente transformador."</blockquote><p class="da">Isabela M. · São Paulo</p></div>
+      <div class="dc rv"><div class="st5">★★★★★</div><blockquote data-pt='"A atenção ao detalhe, o silêncio do ambiente, a forma como ela escuta antes de qualquer protocolo. JOHARI é diferente de tudo que já vivi."' data-en='"The attention to detail, the silence of the space, the way she listens before any protocol. JOHARI is unlike anything I have experienced."'>"A atenção ao detalhe, o silêncio do ambiente, a forma como ela escuta antes de qualquer protocolo. JOHARI é diferente de tudo que já vivi."</blockquote><p class="da">Carolina R. · Recreio, RJ</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" aria-labelledby="faq-h2">
+  <div class="fq-w">
+    <div class="rv">
+      <span class="ey" style="text-align:center;display:block" data-pt="Dúvidas frequentes" data-en="Common questions">Dúvidas frequentes</span>
+      <h2 id="faq-h2" class="st" data-pt="Perguntas <em>frequentes</em>" data-en="Frequently asked <em>questions</em>">Perguntas <em>frequentes</em></h2>
+      <div class="gl c"></div>
+    </div>
+    <div class="fql">
+      <div class="fi"><div class="fq"><span data-pt="Como funciona o agendamento?" data-en="How does booking work?">Como funciona o agendamento?</span><div class="fp">+</div></div><div class="fa" data-pt="O agendamento é feito pelo WhatsApp. Você nos conta sobre você e seu momento, e indicamos o protocolo mais adequado com os horários disponíveis." data-en="Booking is done via WhatsApp. You tell us about yourself and your current moment, and we recommend the most suitable protocol with available times.">O agendamento é feito pelo WhatsApp. Você nos conta sobre você e seu momento, e indicamos o protocolo mais adequado com os horários disponíveis.</div></div>
+      <div class="fi"><div class="fq"><span data-pt="Onde fica o espaço?" data-en="Where is the space?">Onde fica o espaço?</span><div class="fp">+</div></div><div class="fa" data-pt="Estamos no Recreio dos Bandeirantes, zona oeste do Rio de Janeiro. O endereço completo é enviado após a confirmação do agendamento." data-en="We are in Recreio dos Bandeirantes, west zone of Rio de Janeiro. The full address is sent after booking confirmation.">Estamos no Recreio dos Bandeirantes, zona oeste do Rio de Janeiro. O endereço completo é enviado após a confirmação do agendamento.</div></div>
+      <div class="fi"><div class="fq"><span data-pt="Vocês atendem pós-operatório?" data-en="Do you handle post-op care?">Vocês atendem pós-operatório?</span><div class="fp">+</div></div><div class="fa" data-pt="Sim. A Dra. Marina é especializada em drenagem linfática e recuperação pós-cirúrgica, sempre em diálogo com a equipe médica." data-en="Yes. Dr. Marina specializes in lymphatic drainage and post-surgical recovery, always in dialogue with the medical team.">Sim. A Dra. Marina é especializada em drenagem linfática e recuperação pós-cirúrgica, sempre em diálogo com a equipe médica.</div></div>
+      <div class="fi"><div class="fq"><span data-pt="Atendem hotéis?" data-en="Do you serve hotels?">Atendem hotéis?</span><div class="fp">+</div></div><div class="fa" data-pt="Sim! Levamos nossos protocolos in-house para hotéis boutique, resorts e pousadas. Entre em contato para saber mais." data-en="Yes! We bring our protocols in-house to boutique hotels, resorts and inns. Get in touch to learn more.">Sim! Levamos nossos protocolos in-house para hotéis boutique, resorts e pousadas. Entre em contato para saber mais.</div></div>
+      <div class="fi"><div class="fq"><span data-pt="Quantas sessões preciso?" data-en="How many sessions do I need?">Quantas sessões preciso?</span><div class="fp">+</div></div><div class="fa" data-pt="Depende do seu objetivo. Discutimos tudo no primeiro contato e sugerimos a frequência ideal. Resultados visíveis desde a primeira sessão." data-en="It depends on your goal. We discuss everything in the first contact and suggest the ideal frequency. Visible results from the first session.">Depende do seu objetivo. Discutimos tudo no primeiro contato e sugerimos a frequência ideal. Resultados visíveis desde a primeira sessão.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="cta">
+  <div class="ct-i rv">
+    <span class="ey" data-pt="Sua joia te espera" data-en="Your gem awaits">Sua joia te espera</span>
+    <h2 class="st" data-pt="Comece sua <em>jornada</em>" data-en="Begin your <em>journey</em>">Comece sua <em>jornada</em></h2>
+    <div class="gl c"></div>
+    <p data-pt="O cuidado que revela quem você é começa com um gesto simples." data-en="The care that reveals who you are begins with a simple gesture.">O cuidado que revela quem você é começa com um gesto simples.</p>
+    <a href="https://wa.me/5521990334195" target="_blank" class="bg" data-pt="Agendar Meu Protocolo" data-en="Book My Protocol">Agendar Meu Protocolo</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-g">
+    <div class="ft-b">
+      <img src="logo.png" alt="JOHARI Wellness Spa Boutique"/>
+      <p data-pt="A joia que já existe e é revelada pelo cuidado consciente. Wellness Spa Boutique no Recreio dos Bandeirantes, Rio de Janeiro." data-en="The gem that already exists, revealed through conscious care. Wellness Spa Boutique in Recreio dos Bandeirantes, Rio de Janeiro.">A joia que já existe e é revelada pelo cuidado consciente. Wellness Spa Boutique no Recreio dos Bandeirantes, Rio de Janeiro.</p>
+      <div class="ft-social">
+        <a href="https://www.instagram.com/johariconceitowellness" target="_blank" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://wa.me/5521990334195" target="_blank" aria-label="WhatsApp"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+      </div>
+    </div>
+    <div class="ft-c">
+      <h5 data-pt="Páginas" data-en="Pages">Páginas</h5>
+      <ul>
+        <li><a href="index.html" data-pt="Início" data-en="Home">Início</a></li>
+        <li><a href="sobre.html" data-pt="Sobre &amp; Espaço" data-en="About &amp; Space">Sobre &amp; Espaço</a></li>
+        <li><a href="protocolos.html" data-pt="Protocolos" data-en="Protocols">Protocolos</a></li>
+        <li><a href="hoteis.html" data-pt="Para Hotéis" data-en="For Hotels">Para Hotéis</a></li>
+      </ul>
+    </div>
+    <div class="ft-c">
+      <h5 data-pt="Protocolos" data-en="Protocols">Protocolos</h5>
+      <ul>
+        <li><a href="protocolos.html#linha-flow" data-pt="Flow" data-en="Flow">Flow</a></li>
+        <li><a href="protocolos.html#linha-reset" data-pt="Reset" data-en="Reset">Reset</a></li>
+        <li><a href="protocolos.html#linha-recovery" data-pt="Recovery" data-en="Recovery">Recovery</a></li>
+        <li><a href="protocolos.html#linha-lumiere" data-pt="Lumière" data-en="Lumière">Lumière</a></li>
+      </ul>
+    </div>
+    <div class="ft-c">
+      <h5 data-pt="Contato" data-en="Contact">Contato</h5>
+      <ul>
+        <li><a href="https://wa.me/5521990334195" target="_blank">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/johariconceitowellness" target="_blank">Instagram</a></li>
+        <li><span>Recreio dos Bandeirantes</span></li>
+        <li><span>Rio de Janeiro – RJ</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ft-bt">
+    <p data-pt="© 2026 JOHARI Wellness Spa Boutique · Recreio dos Bandeirantes, RJ · Todos os direitos reservados." data-en="© 2026 JOHARI Wellness Spa Boutique · Recreio dos Bandeirantes, RJ · All rights reserved.">© 2026 JOHARI Wellness Spa Boutique · Recreio dos Bandeirantes, RJ · Todos os direitos reservados.</p>
+    <a href="sobre.html" data-pt="Política de Privacidade" data-en="Privacy Policy">Política de Privacidade</a>
+  </div>
+</footer>
+
+<!-- WA FLOAT -->
+<div class="wf">
+  <div class="wt" data-pt="Agende seu protocolo" data-en="Book your protocol">Agende seu protocolo</div>
+  <a href="https://wa.me/5521990334195" target="_blank" class="wb" aria-label="WhatsApp JOHARI">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<script src="johari.js"></script>
+<script>
+function heroReveal() {
+  ['.htit','.hsub','.hsep','.htag','.hbtns','.hscr'].forEach((s,i) => {
+    const el = document.querySelector(s); if(!el) return;
+    setTimeout(() => { el.style.transition = 'opacity .88s ease, transform .88s ease'; el.style.opacity = '1'; el.style.transform = 'none'; }, i * 160);
+  });
+}
+</script>
+</body>
+</html>
